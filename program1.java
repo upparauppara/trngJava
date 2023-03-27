@@ -1,15 +1,11 @@
-import java.util.Scanner;
-class program1
-{
-public static void main(String args[])
-{
-Scanner sc=new Scanner(System.in);
-int num1=sc.nextInt();
-int num2=sc.nextInt();
- 
-{
-   System.out.println (num1+"/"+num2 +"="+num1/num2);
-   System.out.println(num1+"%"+num2  +"="+num1%num2);
+class Employee{
+float salary=40000;
 }
+class programmer extends Employee{
+int bonus=10000;
+public static void main(String args[]){
+ programmer p=new programmer();
+System.out.println("Programmer salary is:"+p.salary);
+System.out.println(" Bonus Programmer  is:"+p.bonus);
 }
 }
